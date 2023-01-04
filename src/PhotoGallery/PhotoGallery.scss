@@ -1,0 +1,13 @@
+.photogallery{
+    @apply mx-auto grid grid-cols-4 container gap-5 justify-items-center content-center;
+    >img{        
+        object-fit: cover;
+        aspect-ratio: 16 / 9;
+    }
+    &__btn{
+        @apply container mx-auto justify-center flex;
+        button{
+            @apply m-5 text-white bg-slate-600 pl-6 pr-6
+        }
+    }
+}
