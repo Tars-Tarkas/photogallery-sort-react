@@ -3,36 +3,42 @@
         "id": 1,
         "src": "https://mykaleidoscope.ru/uploads/posts/2022-06/1656010381_30-mykaleidoscope-ru-p-roza-maira-red-krasivo-foto-31.jpg",
         "alt": "Roses",
-        "classname" : "roses"
+        "classname" : "roses",
+        "visible": true
     },
     {
         "id": 2,
         "src": "https://coolsen.ru/wp-content/uploads/2021/11/118-20211118_170723.jpg",
         "alt": "Roses",
-        "classname" : "roses"            
+        "classname" : "roses",
+        "visible": true
     },
     {
         "id": 3,
         "src": "https://mykaleidoscope.ru/uploads/posts/2022-06/1656010381_30-mykaleidoscope-ru-p-roza-maira-red-krasivo-foto-31.jpg",
         "alt": "Roses",
-        "classname" : "roses"            
+        "classname" : "roses",
+        "visible": true           
     },
     {
         "id": 4,
         "src": "https://coolsen.ru/wp-content/uploads/2021/11/118-20211118_170723.jpg",
         "alt": "Roses",
-        "classname" : "roses"            
+        "classname" : "roses",
+        "visible": true
     },
     {
         "id": 5,
         "src": "https://mudrost.info/wp-content/uploads/2021/03/tulpans_3-2048x1356.jpg",
         "alt": "tulpans",
-        "classname" : "tulpans"            
+        "classname" : "tulpans",
+        "visible": true
     },
     {
         "id": 6,
         "src": "https://vplate.ru/images/article/orig/2022/09/tyulpany-vidy-i-sorta-posadka-i-uhod-9.jpg",
         "alt": "tulpans",
-        "classname" : "tulpans"            
+        "classname" : "tulpans",
+        "visible": true
     }
 ]  

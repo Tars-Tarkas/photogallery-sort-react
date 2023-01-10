@@ -7,7 +7,39 @@
     &__btn{
         @apply container mx-auto justify-center flex;
         button{
-            @apply m-5 text-white bg-slate-600 pl-6 pr-6
+            @apply m-5 text-white bg-slate-600 pl-6 pr-6 uppercase
         }
     }
 }
+
+@keyframes fadeout {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+  }
+  
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+      transform: scale(1.1);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .toggleOut {
+    animation: fadeout 1500ms;
+    opacity: 0;
+  }
+  
+  .toggleIn {
+    animation: fadein 1500ms;
+    opacity: 1;
+  }
